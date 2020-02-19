@@ -12,7 +12,7 @@ public struct ComponentASetup {
 
     static var applicationID: String?
     static var environment: Environment = .prod
-    static var componentListJSONPath: URL?//用来配置 URL List 的 JSON 文件
+    static var componentListJSONPath: URL?//用来配置 URL Host 的 JSON 文件
 
     public static func configure(applicationID: String, environment: Environment, componentListJSONPath: URL?) {
         self.applicationID = applicationID

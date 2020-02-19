@@ -18,7 +18,7 @@ class ServiceAImp: ServiceAProtocol {
 
     func demoFunction() -> Bool {
         guard let dataSource = dataSource else {
-            assert(false, "repository 不可为空")//assert 只在 debug 环境起作用
+            assert(false, "dataSource 不可为空")//assert 只在 debug 环境起作用
         }
         return dataSource.demoFunction()
     }
