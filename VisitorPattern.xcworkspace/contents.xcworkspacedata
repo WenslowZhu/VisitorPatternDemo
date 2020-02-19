@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RepositoryA/RepositoryA.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VisitorPatternDemo/../ComponentA/ComponentA.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VisitorPatternDemo/VisitorPatternDemo.xcodeproj">
+   </FileRef>
+</Workspace>
